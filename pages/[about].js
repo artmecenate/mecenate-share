@@ -5,7 +5,7 @@ import { FacebookShareButton, FacebookIcon} from 'next-share';
 
 About.getInitialProps = async ({query}) => {
 
-	const result = await fetch('http://34.219.113.18:8000/users/image/portfolio/' + query.about);
+	const result = await fetch('https://api.artmecenate.com//users/image/portfolio/' + query.about);
 	const data = await result.json()
 
 
