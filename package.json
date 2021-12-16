@@ -1,0 +1,22 @@
+{
+  "name": "sharer",
+  "private": true,
+  "scripts": {
+    "dev": "next -p 3001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.0.7",
+    "next-share": "^0.12.2",
+    "node-fetch": "^3.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^3.0.3",
+    "eslint": "8.4.1",
+    "eslint-config-next": "12.0.7"
+  }
+}
