@@ -2,7 +2,6 @@
   "name": "sharer",
   "private": true,
   "scripts": {
-    //"dev": "next -p 3001",
     "dev": "next dev",
     "build": "next build ",
     "start": "next start",
