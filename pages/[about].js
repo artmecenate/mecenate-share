@@ -5,7 +5,7 @@ import { FacebookShareButton, FacebookIcon} from 'next-share';
 
 About.getInitialProps = async ({query}) => {
 
-	const result = await fetch('https://api.artmecenate.com//users/image/portfolio/' + query.about);
+	const result = await fetch('https://api.artmecenate.com/users/image/portfolio/' + query.about);
 	const data = await result.json()
 
 
@@ -42,7 +42,7 @@ function About({slug,info}) {
 			<img src = {info[0].original}/>
 
 			<FacebookShareButton
-			  url={'http://localhost:3001/bc157708-976b-4843-b051-75040342cf86'}
+			  url={'https://mecenate-share-private-b50lue8p1-artmecenate.vercel.app/'+ slug}
 			  
 			>
 			  <FacebookIcon size={32} round />
